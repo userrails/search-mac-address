@@ -8,7 +8,7 @@ module SearchMacAddress
       SearchMacAddress::AddrMac.get_physical_address
     end
 
-    def mac_addr
+    def self.mac_addr
       addresses = all_addr
       if addresses
         return addresses.first 
