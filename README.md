@@ -24,6 +24,26 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+To get set of mac addresses available on your system, use following code
+```
+SearchMacAddress::Filter.all_addr
+```
+
+To get the mac address of your system, use following code
+```
+SearchMacAddress::Filter.mac_addr
+```
+
+To get encoded mac address inoder to keep it secure somewhere, use following code 
+```
+SearchMacAddress::Filter.encode
+```
+
+To decode the mac address, supply encoded data to the decode()
+```
+SearchMacAddress::Filter.decode(encoded_addr)
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
