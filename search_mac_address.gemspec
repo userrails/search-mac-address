@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Shiv Raj Badu"]
   spec.email         = ["shivrajbadu@gmail.com"]
 
-  spec.summary       = %q{Activate and deactivate the application under certain condition}
+  spec.summary       = %q{Search mac address of your system, encode and decode mechanism}
   spec.description   = %q{Get mac address, encode and save.}
   spec.homepage      = "https://github.com/userrails/search-mac-address"
   spec.license       = "MIT"
